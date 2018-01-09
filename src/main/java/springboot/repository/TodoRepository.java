@@ -20,4 +20,8 @@ public class TodoRepository {
     return true;
   }
 
+  public List<Todo> getAll(){
+    return new ArrayList<Todo>();
+  }
+
 }
